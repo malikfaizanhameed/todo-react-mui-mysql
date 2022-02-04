@@ -1,0 +1,17 @@
+.todo__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em;
+  margin-right: 35%;
+  margin-left: 35%;
+  border: 2px solid black;
+  border-radius: 9999px;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.todo__text {
+  font-weight: 900;
+  color: crimson;
+}

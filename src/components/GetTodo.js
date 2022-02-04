@@ -4,12 +4,12 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./GetTodo.css";
 
-const GetTodo = () => {
+const GetTodo = ({ addTodo }) => {
   const [todo, setTodo] = useState("");
 
   const handleSumbit = (e) => {
     e.preventDefault();
-    console.log(todo);
+    addTodo(todo);
     setTodo("");
   };
   return (
