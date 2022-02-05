@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+.heading > h1 {
+  text-decoration: solid;
+  color: darkblue;
+  text-decoration: double;
+}

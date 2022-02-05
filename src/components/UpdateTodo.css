@@ -1,13 +1,14 @@
-.todo__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 1em;
-  margin-right: 35%;
-  margin-left: 35%;
-  border: 2px solid black;
-  border-radius: 9999px;
-  padding: 10px 0;
-  text-transform: capitalize;
-  background-color: rgb(3, 39, 92);
+.update__container {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  margin: 1em !important;
+  margin-right: 35% !important;
+  margin-left: 35% !important;
+  border: 2px solid black !important;
+  border-radius: 9999px !important;
+  padding: 10px 0 !important;
+  text-transform: capitalize !important;
+  background-color: rgb(209, 212, 216) !important;
+  color: white !important;
 }
