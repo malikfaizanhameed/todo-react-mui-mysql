@@ -9,9 +9,44 @@
   border-radius: 9999px;
   padding: 10px 0;
   text-transform: capitalize;
+  background-color: rgb(3, 39, 92);
 }
 
 .todo__text {
   font-weight: 900;
-  color: crimson;
+  color: rgb(255, 187, 0);
+}
+
+.edit__icon {
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.delete__icon {
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.done__icon {
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.todo__container:hover {
+  background-color: rgb(114, 3, 3);
+}
+
+.edit__icon:hover {
+  color: black;
+}
+
+.delete__icon:hover {
+  color: red;
+}
+
+.done__icon:hover {
+  color: yellow;
 }
